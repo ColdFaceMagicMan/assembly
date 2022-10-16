@@ -1,0 +1,4 @@
+root@iZuf69bsbsl7wwodh1huypZ:~/asm/assembly/plus_to_100# nasm -f elf plus_to_100.asm 
+root@iZuf69bsbsl7wwodh1huypZ:~/asm/assembly/plus_to_100# ld -m elf_i386 -s -o plus_to_100 plus_to_100.o
+root@iZuf69bsbsl7wwodh1huypZ:~/asm/assembly/plus_to_100# ./plus_to_100 
+5050

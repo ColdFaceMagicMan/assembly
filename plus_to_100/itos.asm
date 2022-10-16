@@ -16,7 +16,7 @@ int_to_string:
   mov ecx,1           ;string长度起始值，默认含有一个换行符
 
 .next_digit:
-  xor edx,edx         ; Clear edx prior to dividing edx:eax by ebx
+  xor edx,edx         ; edx置0，接收余数
   div ebx             ; eax /= 10
   add dl,'0'          ; 数字转换为asc
   dec esi             ; buffer指针前移
