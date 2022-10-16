@@ -5,4 +5,5 @@
 
 To Run:
 nasm -f elf #file_name
+
 ld -m elf_i386 -s -o  #out_file_name  #.ofilename
