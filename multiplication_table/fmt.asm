@@ -3,6 +3,8 @@
 section .data
     endl db 10
 
+
+
 print_endl:
     ;sys_write    
     mov edx, 1          

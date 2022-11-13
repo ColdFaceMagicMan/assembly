@@ -9,6 +9,7 @@ section .bss
     buffer resb 10  ;用于存储字符串的buffer，未初始化放bss段
     char resb    1   ;存要打印的字符
 
+
 SECTION .text
 global  _start
  
