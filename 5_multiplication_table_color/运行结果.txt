@@ -12,4 +12,4 @@ root@iZuf69bsbsl7wwodh1huypZ:~/asm/assembly/multiplication_table# ./multiplicati
 1X9=9 2X9=18 3X9=27 4X9=36 5X9=45 6X9=54 7X9=63 8X9=72 9X9=81 
 
 
-输出均为蓝色
+输出均为蓝色,之后的控制台输出也均为蓝色
